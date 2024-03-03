@@ -1,0 +1,36 @@
+/* Estilizando o cabeçalho */
+header {
+  background-color: red; /* Fundo vermelho */
+  color: white; /* Texto branco */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilizando os serviços */
+#services {
+  background-color: red; /* Fundo vermelho */
+  color: white; /* Texto branco */
+  padding: 20px;
+}
+
+/* Estilizando os benefícios */
+#benefits {
+  background-color: red; /* Fundo vermelho */
+  color: white; /* Texto branco */
+  padding: 20px;
+}
+
+/* Estilizando o formulário de contato */
+#contact {
+  background-color: red; /* Fundo vermelho */
+  color: white; /* Texto branco */
+  padding: 20px;
+}
+
+/* Estilizando o rodapé */
+footer {
+  background-color: red; /* Fundo vermelho */
+  color: white; /* Texto branco */
+  padding: 20px;
+  text-align: center;
+}
