@@ -1,36 +1,289 @@
-/* Estilizando o cabeçalho */
+Aqui está um exemplo de estilo CSS para dar uma aparência mais profissional ao seu HTML:
+
+```css
+/* Reset de margens e preenchimento */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, label, input, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilo do cabeçalho */
 header {
-  background-color: red; /* Fundo vermelho */
-  color: white; /* Texto branco */
-  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
 }
 
-/* Estilizando os serviços */
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Estilo dos serviços */
 #services {
-  background-color: red; /* Fundo vermelho */
-  color: white; /* Texto branco */
-  padding: 20px;
+  background-color: #f4f4f4;
+  padding: 50px 0;
 }
 
-/* Estilizando os benefícios */
-#benefits {
-  background-color: red; /* Fundo vermelho */
-  color: white; /* Texto branco */
-  padding: 20px;
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-/* Estilizando o formulário de contato */
-#contact {
-  background-color: red; /* Fundo vermelho */
-  color: white; /* Texto branco */
-  padding: 20px;
-}
-
-/* Estilizando o rodapé */
-footer {
-  background-color: red; /* Fundo vermelho */
-  color: white; /* Texto branco */
-  padding: 20px;
+.service-item {
+  width: 300px;
+  margin-bottom: 40px;
   text-align: center;
 }
+
+.service-item h4 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.service-item p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+/* Estilo dos benefícios */
+#benefits {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.benefit {
+  width: 300px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.benefit h3 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.benefit p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+/* Estilo do formulário de contato */
+#contact {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+```
+
+Este CSS aplica um estilo limpo e profissional ao seu HTML. Você pode salvá-lo em um arquivo chamado `styles.css` e garantir que esteja na mesma pasta que seu arquivo HTML.Aqui está um exemplo de estilo CSS para dar uma aparência mais profissional ao seu HTML:
+
+```css
+/* Reset de margens e preenchimento */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, label, input, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Estilo dos serviços */
+#services {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-item {
+  width: 300px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service-item h4 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.service-item p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+/* Estilo dos benefícios */
+#benefits {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.benefit {
+  width: 300px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.benefit h3 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.benefit p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+/* Estilo do formulário de contato */
+#contact {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+```
+
+Este CSS aplica um estilo limpo e profissional ao seu HTML. Você pode salvá-lo em um arquivo chamado `styles.css` e garantir que esteja na mesma pasta que seu arquivo HTML.
